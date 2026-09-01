@@ -1,0 +1,71 @@
+body {
+  background-color: rgb(50, 35, 98);
+}
+.profile{
+  width: 300px;
+  padding: 50px;
+  border-radius: 20px;
+  /* box-shadow: 50px solid rgb(152, 27, 27); */
+  background-color: beige;
+  margin-left: 200px;
+}
+.profile-img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid white;
+}
+/* Name */
+.profile-h2 {
+  font-size: 24px;
+  color: #13349e;
+  margin-bottom: 5px;
+}
+.job {
+  color: #4c9c6a;
+  font-size: 15px;
+  margin-bottom: 25px;
+}
+.stats {
+  padding: 15px 0;
+  margin-bottom: 20px;
+  border-top: 1px solid #760e0e;
+  border-bottom: 1px solid #941717;
+}
+.pro_card {
+  /* margin-left: 70px;
+  margin-right: 70px; */
+  text-align: center;
+}
+
+.stats div {
+  text-align: center;
+  display: inline-block;
+  width: 90px;
+  vertical-align: top;
+}
+/* Bio */
+.bio {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+.social_icon {
+  display: flex;
+  justify-content: center; /* Centers icons horizontally */
+  gap: 10px;               /* Adds equal spacing between icons */
+  margin: 40px 0px;        /* Removes the side margins that cause line wrapping */
+  margin-right: 5px; 
+  height: 20px;      
+}
+button {
+  border-radius: 30px;
+  padding: 10px 20px;
+  margin: 0 90px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #666;
+  color: white;
+}
