@@ -1,0 +1,29 @@
+.container {
+    height: 350px;
+    padding: 2em;
+    display: flex;
+}
+
+.main {
+    width: 3em;
+    background-color: rgb(80, 128, 167);
+}
+
+.left {
+    width: 20em;
+    background-color: rgb(123, 180, 161);
+}
+
+.right {
+    width: 10em;
+    padding: 1em;
+    display: flex;
+    flex-flow: column;
+    gap: 1em;
+    background-color: rgb(211, 196, 175);
+}
+
+.item {
+    height: 100px;
+    background-color: rgb(157, 214, 214);
+}

@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: pink;
+}
+
+.page {
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: green;
+}
+
+header {
+    height: 100px;
+    background-color: gray;
+    color: white;
+    padding: 10px;
+}
+
+main {
+    flex-grow: 1;
+    background-color: gray;
+    color: white;
+    padding: 10px;
+}
+
+footer {
+    height: 100px;
+    background-color: gray;
+    color: white;
+    padding: 10px;
+}
