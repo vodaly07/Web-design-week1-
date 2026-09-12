@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    background-color: #222;
+}
+.container {
+    background-color: white;
+    width: 95%;
+    margin: 10px auto;
+    padding: 10px;
+}
+.navbar {
+    background-color: pink;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.logo {
+    color: white;
+}
+.menu {
+    display: flex;
+    gap: 30px;
+}
+.menu a {
+    color: white;
+}
+.hamburger {
+    display: none;
+    color: white;
+}
+@media(max-width: 768px) {
+
+    .menu {
+        display: none;
+    }
+    .hamburger {
+        display: block;
+    }
+}
